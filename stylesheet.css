@@ -1,0 +1,691 @@
+/* ================= GENERAL PAGE SETTINGS ================= */
+body {
+    background-image: url("night-sky-full-of-stars.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* ================= SLIDE LAYOUT ================= */
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ================= TEXT STYLE ================= */
+.bigger-text {
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+
+    background: linear-gradient(45deg, pink, rgb(0, 183, 255), rgb(128, 128, 81));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.3),
+                 0 0 25px rgba(0, 128, 255, 0.5),
+                 0 0 35px rgba(255, 0, 200, 0.4);
+}
+
+/* ================= BUTTON STYLE ================= */
+.next-btn {
+    margin-top: 20px;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff0099, #00ccff);
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.4);
+    transition: 0.3s ease;
+}
+
+.next-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.7);
+}
+
+/* ================= SLIDE 2 DESIGN ================= */
+#slide2 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide2-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide2-left, .slide2-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide2-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 3 DESIGN ================= */
+#slide3 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide3-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide3-left, .slide3-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide3-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 4 DESIGN ================= */
+#slide4 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide4-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide4-left, .slide4-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide4-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 5 DESIGN ================= */
+
+#slide5 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide5-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide5-left, .slide5-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide5-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 6 DESIGN ================= */
+
+#slide6 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide6-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide6-left, .slide6-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide6-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 7 DESIGN ================= */
+
+#slide7 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide7-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide7-left, .slide7-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide7-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 8 DESIGN ================= */
+
+#slide8 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide8-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide8-left, .slide8-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide8-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 9 DESIGN ================= */
+
+#slide9 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide9-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide9-left, .slide9-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide9-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 10 DESIGN ================= */
+
+#slide10 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide10-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide10-left, .slide10-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide10-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 11 DESIGN ================= */
+
+#slide11 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide11-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide11-left, .slide11-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide11-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 12 DESIGN ================= */
+
+#slide12 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide12-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide12-left, .slide12-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide12-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 13 DESIGN ================= */
+
+#slide13 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide13-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide13-left, .slide13-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide13-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 14 DESIGN ================= */
+
+#slide14 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide14-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide14-left, .slide14-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide14-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ================= SLIDE 15 DESIGN ================= */
+
+#slide15 {
+    position: relative;       /* required for absolute arrows */
+    width: 100%;
+    height: 100%;
+}
+
+.slide15-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slide15-left, .slide15-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    animation: scroll 4s infinite linear;
+}
+
+.slide15-right img {
+    width: 70%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+
+/* ================= ARROW BUTTON ================= */
+.arrow-btn {
+    position: absolute;
+    bottom: 30px;         /* distance from bottom of slide */
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+    z-index: 10;          /* make sure it's above image/text */
+}
+
+.arrow-btn:hover {
+    transform: scale(1.2);
+    color: #00ccff;
+}
+
+/* Right arrow at bottom-right */
+.arrow-right {
+    right: 30px;
+}
+
+/* Left arrow at bottom-left */
+.arrow-left {
+    left: 30px;
+}
+
+/* ================= DECISION SLIDE STYLES ================= */
+.decision-slide {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide14-left, .slide14-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* decision buttons container */
+.decision-controls {
+    position: absolute;
+    bottom: 90px;
+    display: flex;
+    gap: 20px;
+    z-index: 11;
+}
+
+/* decision buttons */
+.decision-btn {
+    padding: 12px 28px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    transition: transform 0.15s ease;
+}
+
+.decision-btn:active { transform: translateY(2px); }
+
+.decision-btn.yes {
+    background: linear-gradient(45deg,#ff8bd3,#7fe7ff);
+    color: #001;
+}
+
+.decision-btn.no {
+    background: linear-gradient(45deg,#ffd1d1,#ff9f9f);
+    color: #001;
+}
+
+/* ===== YES SLIDE (flip cards) ===== */
+.reason-title {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.flip-card {
+    width: 120px;
+    height: 120px;
+    perspective: 1000px;
+}
+
+.flip-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.flip-card.flipped .flip-inner {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.front {
+    background: rgba(255,255,255,0.2);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.back {
+    background: rgba(255,255,255,0.9);
+    color: #111;
+    transform: rotateY(180deg);
+    padding: 10px;
+    text-align: center;
+}
+
+/* NO slide centering */
+.center-content {
+    text-align: center;
+}

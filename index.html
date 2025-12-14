@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wishing-you-the-happiest-birthday</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <!-- SLIDE 1 -->
+    <div id="slide1" class="slide">
+        <h1 class="bigger-text">i want to confess something!!!</h1>
+        <button class="next-btn" onclick="goToSlide('slide2')">go on</button>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <div id="slide2" class="slide hidden">
+        <div class="slide2-content">
+            <div class="slide2-left">
+                <p class="scroll-text">i have been  admiring you from a distance for a long time </p>
+            </div>
+            <div class="slide2-right">
+                <img src="admiring_him.png" alt="admiring him">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide1')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide3')">➡</div>
+    </div>
+
+    <!-- SLIDE 3 -->
+    <div id="slide3" class="slide hidden">
+        <div class="slide3-content">
+            <div class="slide3-left">
+                <p class="scroll-text">but.... i have been waiting...</p>
+            </div>
+            <div class="slide3-right">
+                <img src="waiting.jpg" alt="waiting-for-him">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide2')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide4')">➡</div>
+    </div>
+
+    <!-- SLIDE 4 -->
+    <div id="slide4" class="slide hidden">
+        <div class="slide4-content">
+            <div class="slide4-left">
+                <p class="scroll-text">to celebrate your birthday in person</p>
+            </div>
+            <div class="slide4-right">
+                <img src="celebrating-birthday.png" alt="celebrating-birthday">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide3')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide5')">➡</div>
+    </div>
+
+    <!-- SLIDE 5 -->
+    <div id="slide5" class="slide hidden">
+        <div class="slide5-content">
+            <div class="slide5-left">
+                <p class="scroll-text"> stare into eachother eyes </p>
+            </div>
+            <div class="slide5-right">
+                <img src="starring-eachother.png" alt="starring-eachother">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide4')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide6')">➡</div>
+    </div>
+
+<!-- SLIDE 6 -->
+    <div id="slide6" class="slide hidden">
+        <div class="slide6-content">
+            <div class="slide6-left">
+                <p class="scroll-text"> being these close to you </p>
+            </div>
+            <div class="slide6-right">
+               <img src="being-closer-.png" alt="being-closer-">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide5')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide7')">➡</div>
+    </div>
+
+    <!-- SLIDE 7 -->
+    <div id="slide7" class="slide hidden">
+        <div class="slide7-content">
+            <div class="slide7-left">
+                <p class="scroll-text"> have our first kiss </p>
+            </div>
+            <div class="slide7-right">
+                <img src="kissing.png" alt="kissing">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide6')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide8')">➡</div>
+    </div>
+
+<!-- SLIDE 8 -->
+    <div id="slide8" class="slide hidden">
+        <div class="slide8-content">
+            <div class="slide8-left">
+                <p class="scroll-text"> hold your hand </p>
+            </div>
+            <div class="slide8-right">
+                <img src="holding-hand.png" alt="holding-hand">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide7')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide9')">➡</div>
+    </div>
+
+<!-- SLIDE 9 -->
+    <div id="slide9" class="slide hidden">
+        <div class="slide9-content">
+            <div class="slide9-left">
+                <p class="scroll-text"> being embraced in your arms </p>
+            </div>
+            <div class="slide9-right">
+                <img src="hugging.png" alt="hugging">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide8')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide10')">➡</div>
+    </div>
+
+ <!-- SLIDE 10 -->
+    <div id="slide10" class="slide hidden">
+        <div class="slide10-content">
+            <div class="slide10-left">
+                <p class="scroll-text"> cook together </p>
+            </div>
+            <div class="slide10-right">
+                <img src="cook-together.png" alt="cook-together">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide9')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide11')">➡</div>
+    </div>   
+
+<!-- SLIDE 11 -->
+    <div id="slide11" class="slide hidden">
+        <div class="slide11-content">
+            <div class="slide11-left">
+                <p class="scroll-text"> captute those cute moments </p>
+            </div>
+            <div class="slide11-right">
+                <img src="with-his-dog.jpg" alt="with-his-dog">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide10')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide12')">➡</div>
+    </div>
+
+<!-- SLIDE 12 -->
+    <div id="slide12" class="slide hidden">
+        <div class="slide12-content">
+            <div class="slide12-left">
+                <p class="scroll-text"> make you sleep in my lap </p>
+            </div>
+            <div class="slide12-right">
+                <img src="resting-head.png" alt="resting-head">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide11')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide13')">➡</div>
+    </div>
+
+<!-- SLIDE 13 -->
+    <div id="slide13" class="slide hidden">
+        <div class="slide13-content">
+            <div class="slide13-left">
+                <p class="scroll-text"> click many pictures with you </p>
+            </div>
+            <div class="slide13-right">
+                <img src="our-pic.jpg" alt="taking-pictures">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide12')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide14')">➡</div>
+    </div>
+
+    <!-- SLIDE 14 -->
+    <div id="slide14" class="slide hidden">
+        <div class="slide13-content">
+            <div class="slide14-left">
+                <p class="scroll-text"> to hear your confession in person </p>
+            </div>
+            <div class="slide14-right">
+                <img src="his-confession.png" alt="his-confession">
+            </div>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide13')">⬅</div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide15')">➡</div>
+    </div>
+
+ <!-- SLIDE 15 -->
+    <div id="slide15" class="slide hidden">
+        <div class="slide15-content decision-slide">
+            <div class="slide15-left">
+                <p id="final-question" class="scroll-text"> are you willing to love me for the rest of your life?</p>
+            </div>
+            <div class="slide15-right">
+                <img src="proposing-him.png" alt="proposing-him">
+            </div>
+        </div>
+
+        <!-- decision buttons -->
+        <div class="decision-controls">
+            <button class="decision-btn yes" onclick="handleDecision('yes')">Yes</button>
+            <button class="decision-btn no" onclick="handleDecision('no')">No</button>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide14')">⬅</div>
+
+ <!-- decision buttons -->
+        <div class="decision-controls">
+            <button class="decision-btn yes" onclick="handleDecision('yes')">Yes</button>
+            <button class="decision-btn no" onclick="handleDecision('no')">No</button>
+        </div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide14')">⬅</div>
+    </div>
+
+ <!-- SLIDE 16 : YES path – reasons -->
+    <div id="slide16" class="slide hidden">
+        <h2 class="reason-title"> then let's work on these together </h2>
+        <div class="card-grid">
+            <div class="flip-card"><div class="flip-inner"><div class="front">1</div><div class="back">commitment</div></div></div>
+            <div class="flip-card"><div class="flip-inner"><div class="front">2</div><div class="back"> mutual respect & understanding </div></div></div>
+            <div class="flip-card"><div class="flip-inner"><div class="front">3</div><div class="back"> consistent efforts matter </div></div></div>
+            <div class="flip-card"><div class="flip-inner"><div class="front">4</div><div class="back"> being empathetic </div></div></div>
+            <div class="flip-card"><div class="flip-inner"><div class="front">5</div><div class="back"> freedom </div></div></div>
+            <div class="flip-card"><div class="flip-inner"><div class="front">6</div><div class="back"> loyalty </div></div></div>
+            <div class="flip-card"><div class="flip-inner"><div class="front">7</div><div class="back"> supportive </div></div></div>
+            <div class="flip-card"><div class="flip-inner"><div class="front">8</div><div class="back"> growing together </div></div></div>
+            <div class="flip-card"><div class="flip-inner"><div class="front">9</div><div class="back"> become friends </div></div></div>
+        </div>
+        <div class="arrow-btn arrow-right" onclick="goToSlide('slide17')">➡</div>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide15')">⬅</div>
+    </div>
+
+ <!-- SLIDE 17 : final birthday -->
+    <div id="slide17" class="slide hidden">
+        <h1 class="bigger-text">HAPPY BIRTHDAY ❤️</h1>
+        <div class="arrow-btn arrow-left" onclick="goToSlide('slide16')">⬅</div>
+    </div>
+
+ <!-- SLIDE 18 : NO path -->
+    <div id="slide18" class="slide hidden center-content">
+       <p class="scroll-text">it's okay 😊</p>
+       <p class="scroll-text">your bad!!!</p>
+       <p class="scroll-text">no worries</p>
+       <h1 class="bigger-text">HAPPY BIRTHDAY</h1>
+       <div class="arrow-btn arrow-left" onclick="goToSlide('slide15')">⬅</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
